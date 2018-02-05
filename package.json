@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-payment-protocol",
+  "name": "garlicore-payment-protocol",
   "version": "1.5.0",
   "description": "Payment Protocol (BIP70 and related) support for bitcore",
   "author": "BitPay <dev@bitpay.com>",
@@ -11,32 +11,6 @@
     "build": "gulp",
     "rootcerts": "node ./update-rootcerts.js"
   },
-  "contributors": [
-    {
-      "name": "Christopher Jeffrey",
-      "email": "chjeffrey@gmail.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Ryan X. Charles",
-      "email": "ryan@bitpay.com"
-    },
-    {
-      "name": "Linus Unnebäck",
-      "email": "linus@folkdatorn.se"
-    },
-    {
-      "name": "Esteban Ordano",
-      "email": "eordano@gmail.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    }
-  ],
   "keywords": [
     "bitcoin",
     "bitcore",
@@ -45,20 +19,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-payment-protocol.git"
+    "url": "https://github.com/garlicoin-project/garlicore-payment-protocol.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.9.1",
     "asn1.js-rfc3280": "=4.0.0",
     "asn1.js-rfc5280": "=2.0.0",
-    "bitcore-lib": "^0.15.0",
+    "garlicore-lib": "^0.15.0",
     "bs58": "^4.0.1",
     "jsrsasign": "^8.0.4",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build": "https://github.com/bitpay/bitcore-build.git#d4e8b2b2f1e2c065c3a807dcb6a6250f61d67ab3",
+    "garlicore-build": "https://github.com/garlicoin-project/garlicore-build.git#fb3d484d185b5ee5fcb9416dba19d73f1ce832f9",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
